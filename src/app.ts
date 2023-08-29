@@ -1,6 +1,6 @@
-import {  credential } from 'firebase-admin';
-import { initializeApp } from 'firebase-admin/app';
-import {getAuth} from 'firebase-admin/auth'
+const {  credential } = require('firebase-admin');
+const { initializeApp } = require('firebase-admin/app');
+const {getAuth} = require('firebase-admin/auth')
 
 class InitializeFbApp {
     private app: any;
