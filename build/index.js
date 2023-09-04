@@ -1,5 +1,5 @@
 "use strict";
-var app = require('./src/app.ts');
+var app = require('./src/app');
 module.exports = {
     app,
 };
